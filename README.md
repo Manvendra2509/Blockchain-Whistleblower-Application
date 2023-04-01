@@ -17,7 +17,7 @@ or Install it from [here](https://nodejs.org/en/download)
 
 ` npm run dev ` <br/>
 
-### Before doing any changes in the poject:
-1. Create a **separate branch** 
-2. Don't push your code to **main** branch diectly
+### Before doing any changes in the project:
+1. Create a **separate branch**.
+2. Don't push your code to **main** branch directly.
 
