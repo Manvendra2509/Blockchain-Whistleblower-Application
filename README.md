@@ -1,7 +1,7 @@
 ## WhistleBlower 
 
 
-**Make sure you have node installed** <br/>
+**Make sure you have nodejs installed** <br/>
 
 or Install it from [here](https://nodejs.org/en/download)
 
