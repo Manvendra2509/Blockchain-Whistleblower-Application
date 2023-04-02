@@ -6,7 +6,7 @@
 2. [Reactjs](https://react.dev/) <br/>  
 3. [DaisyUI](https://daisyui.com/) <br/>
 4. [Solidity](https://docs.soliditylang.org/en/latest/) <br/>
-5. [web3.js](https://web3js.readthedocs.io/en/v1.8.2/) <br/>
+5. [Ethers.js](https://docs.ethers.org/v5/) <br/>
 6. [Metamask](https://docs.metamask.io/guide/#why-metamask) <br/>
 
 **Make sure you have nodejs installed** <br/>
