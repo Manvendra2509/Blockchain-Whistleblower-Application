@@ -1,14 +1,11 @@
-import React from 'react';
-import { Button } from "antd";
+import React from "react";
+import Home from "./pages/Home";
 function App() {
-
   return (
     <div className="App">
-       <h1>Hello</h1>
-       <Button type="primary">Click Me</Button> 
-       <p>You can start the project by editing src/App.jsx</p>
+      <Home />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
