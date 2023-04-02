@@ -1,14 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import React from 'react';
+import { Button } from "antd";
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
        <h1>Hello</h1>
+       <Button type="primary">Click Me</Button> 
        <p>You can start the project by editing src/App.jsx</p>
     </div>
   )
