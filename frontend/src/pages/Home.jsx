@@ -1,11 +1,22 @@
 import Navbar from "../components/Navbar";
 import HeroImg from "../assets/hero_img.png"
 import Button from "../components/Button";
+import Login from './Auth';
+import { useState } from "react";
 
 const Home = () => {
+  
+  const [isShowLogin, setIsShowLogin] = useState(false)
+ 
+  const handleLoginClick = ()=>{
+    setIsShowLogin((isShowLogin)=> !isShowLogin)
+  }
+
+
   return (
     <div className="h-screen overflow-hidden">
-      <Navbar />
+      <Navbar handleLoginClick={handleLoginClick} />
+      <Login isShowLogin={isShowLogin}/>
       <div className="flex w-full h-screen item-center justify-between bg-neutral-content px-20 py-24">
         <div className="w-2/5">
         <img src={HeroImg} />

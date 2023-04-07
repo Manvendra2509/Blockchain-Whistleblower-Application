@@ -1,11 +1,17 @@
 import Logo from "./Logo";
+import Login from "../pages/Auth";
 
-const Navbar = () => {
+const Navbar = ({handleLoginClick}) => {
+  
+  const handleClick = () =>{
+       handleLoginClick();
+  } 
+
   return (
     <div className="navbar bg-base-200 drop-shadow-xl">
       <div className="flex-none">
         <button className="btn btn-square btn-ghost">
-					<Logo />
+          <Logo />
         </button>
       </div>
       <div className="flex-1">
@@ -13,10 +19,10 @@ const Navbar = () => {
       </div>
       <div className="flex-none justify-evenly w-1/4">
         <button className="btn btn-square btn-ghost">
-					About
+          About
         </button>
-				<button className="btn btn-square btn-ghost">
-					LogIn
+        <button onClick={handleClick} className="btn btn-square btn-ghost">
+          Login
         </button>
       </div>
     </div>
