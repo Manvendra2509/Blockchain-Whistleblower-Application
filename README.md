@@ -30,3 +30,7 @@ or Install it from [here](https://nodejs.org/en/download)
 2. Don't push your code to **main** branch directly.
 3. Make sure you pull changes from the main branch in order to be up-to-date with it.<br/>
    run this: ```git pull origin main```
+   
+### Design Link:
+
+[Whistle Blower App. Design](https://www.figma.com/file/WfqI3w98r8kTpPVCAkNFb6/Untitled?node-id=0%3A1&t=aIm1s0HpL16Ci8I6-1)
