@@ -1,22 +1,36 @@
 import Logo from "./Logo";
+import Login from "../pages/Auth";
 
-const Navbar = () => {
+const Navbar = ({handleLoginClick}) => {
+  
+  const handleClick = () =>{
+       handleLoginClick();
+  } 
+
   return (
     <div className="navbar bg-base-200 drop-shadow-xl">
       <div className="flex-none">
         <button className="btn btn-square btn-ghost">
-					<Logo />
+          <Logo />
         </button>
       </div>
       <div className="flex-1">
         <a className="btn btn-ghost normal-case text-xl font-bold">WhistleBlower</a>
       </div>
       <div className="flex-none justify-evenly w-1/4">
+
         <button className="btn btn-square btn-ghost tracking-wider font-bold">
 					About
         </button>
 				<button className="btn btn-square btn-ghost tracking-wider font-bold">
 					LogIn
+
+        <button className="btn btn-square btn-ghost">
+          About
+        </button>
+        <button onClick={handleClick} className="btn btn-square btn-ghost">
+          Login
+
         </button>
       </div>
     </div>

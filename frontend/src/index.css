@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.show{
+
+    transition: 800ms;
+    opacity: 1;
+}
+
+
+.show.active{
+    transform: translateY(-100px) scale(0) ;
+    opacity: 0;
+}
