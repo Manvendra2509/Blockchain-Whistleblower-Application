@@ -20,16 +20,10 @@ const Navbar = ({handleLoginClick}) => {
       <div className="flex-none justify-evenly w-1/4">
 
         <button className="btn btn-square btn-ghost tracking-wider font-bold">
-	 About
+	        About
         </button>
-	<button className="btn btn-square btn-ghost tracking-wider font-bold">
-	 LogIn
-        <button className="btn btn-square btn-ghost">
-          About
-        </button>
-        <button onClick={handleClick} className="btn btn-square btn-ghost">
+        <button onClick={handleClick} className="btn btn-square btn-ghost tracking-wider font-bold">
           Login
-
         </button>
       </div>
     </div>
