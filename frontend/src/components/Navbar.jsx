@@ -15,13 +15,14 @@ const Navbar = ({handleLoginClick}) => {
         </button>
       </div>
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">WhistleBlower</a>
+        <a className="btn btn-ghost normal-case text-xl font-bold">WhistleBlower</a>
       </div>
       <div className="flex-none justify-evenly w-1/4">
-        <button className="btn btn-square btn-ghost">
-          About
+
+        <button className="btn btn-square btn-ghost tracking-wider font-bold">
+	        About
         </button>
-        <button onClick={handleClick} className="btn btn-square btn-ghost">
+        <button onClick={handleClick} className="btn btn-square btn-ghost tracking-wider font-bold">
           Login
         </button>
       </div>
