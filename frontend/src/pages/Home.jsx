@@ -3,15 +3,17 @@ import HeroImg from "../assets/hero_img.png"
 import Button from "../components/Button";
 import Login from './Auth';
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-const Home = () => {
+const Home = () =>{
   
   const [isShowLogin, setIsShowLogin] = useState(false)
  
   const handleLoginClick = ()=>{
     setIsShowLogin((isShowLogin)=> !isShowLogin)
   }
-
+ 
+    
 
   return (
     <div className="h-screen overflow-hidden">
@@ -29,7 +31,7 @@ const Home = () => {
             Break The Silence
           </div>
           <div className="flex justify-evenly item-center mt-12">
-            <Button text="Report" />
+            <Link to="/form"><Button text="Report"/></Link>
             <Button text="View Cases" />
           </div>
         </div>

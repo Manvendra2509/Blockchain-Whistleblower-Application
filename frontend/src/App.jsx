@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./pages/Home";
-import Form from "./pages/Form";
+import Form from "./pages/form";
 import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
